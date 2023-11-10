@@ -69,28 +69,33 @@ const SearchResult = ({ data, handleApplyFilter, filter }: any) => {
 
   const cardRef: any = useRef()
 
+  const listArr = useSelector((state: any) => state.entities.slider.sliderList)
+
   React.useEffect(() => {
     const listArray = cardRef.current?.querySelectorAll('.filtered__slide')
     const scrollEvent = () => {
       const lists: string[] = []
 
       listArray.forEach((el: any) => {
-        if (el?.getBoundingClientRect().top === 280) {
-          lists.push(el.querySelector('h2')?.textContent)
+        if (el?.getBoundingClientRect().top <= 740 && el?.getBoundingClientRect().top >= 0) {
+          const h2Content = el.querySelector('h2')?.textContent
+
+          if (h2Content && !listArr?.includes(h2Content)) {
+            lists.push(h2Content)
+          }
         }
       })
 
-      dispatch(setSliderList([...lists]))
-
-      window.addEventListener('scroll', scrollEvent)
-
-      return () => {
-        window.removeEventListener('scroll', scrollEvent)
-      }
+      dispatch(setSliderList([...listArr, ...lists]))
     }
-  }, [dispatch])
 
-  const listArr = useSelector((state: any) => state.entities.slider.sliderList)
+    window.addEventListener('scroll', scrollEvent)
+
+    return () => {
+      window.removeEventListener('scroll', scrollEvent)
+    }
+  }, [dispatch, listArr])
+
   console.log(listArr)
 
   return (
