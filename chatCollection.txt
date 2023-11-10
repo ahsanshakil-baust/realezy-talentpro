@@ -1,0 +1,489 @@
+state1: initial state
+[
+    {
+        "chatType": "RZYADMIN",
+        "media": "",
+        "receiverId": "677",
+        "schedulePurpose": null,
+        "chatSenderId": "initial_message",
+        "time": "1688539493545",
+        "chatId": "1688539493545",
+        "message": "Thank you for choosing RealEzy!\nFollowing is a quick summary of RealEzy's DIY process which we will walk you through for clearer understanding.\nIf you need any help along the way, simply chat with us here, or WhatsApp us at 88595303. Our team is available to assist you between 11am to 9pm Singapore time (GMT+8).    \n\nHappy DIY on RealEzy app, it's really easy with RealEzy!",
+        "appointmentId": "",
+        "seen": true,
+        "threadId": "273",
+        "propertyId": "242",
+        "isNewInChat": true,
+        "isDeleted": false
+    },
+    {
+        "chatSenderId": "701",
+        "receiverId": "677",
+        "chatId": "1688539493629",
+        "appointmentId": "",
+        "isDeleted": false,
+        "message": "hello",
+        "time": "1688539493629",
+        "chatType": "general",
+        "propertyId": "242",
+        "schedulePurpose": null,
+        "threadId": "273",
+        "media": null,
+        "seen": true,
+        "isNewInChat": null
+    }
+]
+
+state2 : schedule created by landlord
+{
+    "chatSenderId": "677",
+    "chatId": "1688540800413",
+    "seen": false,
+    "threadId": "273",
+    "message": "Schedule",
+    "time": "1688540800413",
+    "schedulePurpose": "house_viewing",
+    "isDeleted": false,
+    "appointmentId": "228",
+    "receiverId": "701",
+    "chatType": "appointment",
+    "media": null,
+    "propertyId": "242",
+    "isNewInChat": null
+}
+
+state3 : schedule accepted by tenant
+{
+    "media": "",
+    "threadId": "273",
+    "isDeleted": false,
+    "seen": false,
+    "appointmentId": "",
+    "schedulePurpose": null,
+    "isNewInChat": null,
+    "chatSenderId": "701",
+    "chatId": "1688542601968",
+    "message": "Schedule Confirmed",
+    "propertyId": "242",
+    "time": "1688542601968",
+    "chatType": "general",
+    "receiverId": "677"
+}
+
+state4: viewing completed by tenant
+{
+    "receiverId": "701",
+    "chatType": "RZYADMIN",
+    "isDeleted": false,
+    "appointmentId": "",
+    "threadId": "273",
+    "chatSenderId": "RZY",
+    "schedulePurpose": null,
+    "time": "1688542694847",
+    "isNewInChat": null,
+    "chatId": "1688542694847",
+    "media": "",
+    "propertyId": "242",
+    "message": "House viewing complete",
+    "seen": false
+}
+
+
+state5: make offer by tenant
+{
+    "seen": false,
+    "receiverId": "677",
+    "schedulePurpose": null,
+    "message": "Rental Proposal Offer",
+    "chatId": "1688543958419",
+    "appointmentId": "",
+    "isNewInChat": null,
+    "media": null,
+    "chatType": "rental_offer",
+    "propertyId": "242",
+    "chatSenderId": "701",
+    "threadId": "273",
+    "isDeleted": false,
+    "time": "1688543958419"
+}
+{
+    "media": null,
+    "chatId": "1688543958693",
+    "isNewInChat": null,
+    "propertyId": "242",
+    "threadId": "273",
+    "seen": false,
+    "time": "1688543958693",
+    "message": "Tenant created the rental proposal",
+    "receiverId": "677",
+    "isDeleted": false,
+    "chatSenderId": "RZY",
+    "schedulePurpose": null,
+    "appointmentId": "",
+    "chatType": "RZYADMIN"
+}
+
+state6: landlord accept rental proposal
+{
+    "propertyId": "242",
+    "appointmentId": "",
+    "media": null,
+    "schedulePurpose": null,
+    "chatType": "RZYADMIN",
+    "chatId": "1688544217873",
+    "threadId": "273",
+    "seen": true,
+    "chatSenderId": "RZY",
+    "isNewInChat": null,
+    "message": "Landlord accepted the rental proposal with offer amount of $5555",
+    "isDeleted": false,
+    "time": "1688544217873",
+    "receiverId": "677"
+}
+
+state7: tenant pay booking fee
+{
+    "chatSenderId": "RZY",
+    "media": "",
+    "schedulePurpose": null,
+    "time": "1688544362654",
+    "receiverId": "677",
+    "chatType": "RZYADMIN",
+    "seen": true,
+    "propertyId": "",
+    "threadId": "273",
+    "isNewInChat": null,
+    "chatId": "1688544362654",
+    "appointmentId": "",
+    "message": "Tenant's Reservation fee payment is being processed",
+    "isDeleted": false
+}
+
+state8: approved booking fee
+{
+    "chatId": "1688544519176",
+    "appointmentId": "",
+    "chatSenderId": "RZ273",
+    "message": "RealEzy: Webdev77 may now proceed to create and share your agreement with Webdev 2023",
+    "media": "",
+    "propertyId": "242",
+    "seen": false,
+    "threadId": "273",
+    "receiverId": "",
+    "chatType": "RZYADMIN",
+    "isDeleted": false,
+    "time": "1688544519176"
+}
+
+state9: agreement created by landlord
+{
+    "isNewInChat": null,
+    "propertyId": "242",
+    "message": "Landlord Created the property draft Agreement for Tenant",
+    "chatType": "agreement",
+    "chatSenderId": "677",
+    "media": "",
+    "chatId": "1688544721327",
+    "appointmentId": "",
+    "seen": false,
+    "threadId": "273",
+    "receiverId": "701",
+    "schedulePurpose": null,
+    "isDeleted": false,
+    "time": "1688544721327"
+}
+
+state10: agreement send from landlord to tenant
+{
+    "threadId": "273",
+    "isNewInChat": null,
+    "media": null,
+    "message": "Landlord Shared The Draft Agreement",
+    "isDeleted": false,
+    "receiverId": "701",
+    "propertyId": "242",
+    "schedulePurpose": null,
+    "time": "1688551561887",
+    "seen": false,
+    "chatId": "1688551561887",
+    "appointmentId": "",
+    "chatType": "RZYADMIN",
+    "chatSenderId": "RZY"
+}
+
+state11: approved by LCH
+nothing
+
+state12: tenant pay first month rental
+{
+    "isNewInChat": null,
+    "propertyId": "242",
+    "media": "",
+    "chatType": "RZYADMIN",
+    "threadId": "273",
+    "time": "1688552479194",
+    "isDeleted": false,
+    "message": "Tenant's first month rental fee payment is being processed",
+    "appointmentId": "",
+    "seen": false,
+    "schedulePurpose": null,
+    "receiverId": "677",
+    "chatId": "1688552479194",
+    "chatSenderId": "RZY"
+}
+
+state13: after approved first month rental
+{
+    "media": "",
+    "propertyId": "242",
+    "seen": false,
+    "appointmentId": "",
+    "time": "1688552615154",
+    "isDeleted": false,
+    "chatId": "1688552615154",
+    "threadId": "273",
+    "chatSenderId": "RZ273",
+    "receiverId": "",
+    "chatType": "RZYADMIN",
+    "message": "RealEzy: 1st month rental fee paid. @ Webdev 2023 please sign the agreement forwarded by @ Webdev77"
+}
+
+state14: after agreement signed by tenant
+{
+    "message": "Tenant Signed The Agreement",
+    "chatSenderId": "RZY",
+    "isNewInChat": null,
+    "threadId": "273",
+    "time": "1688552871628",
+    "receiverId": "677",
+    "chatId": "1688552871628",
+    "media": "",
+    "isDeleted": false,
+    "schedulePurpose": null,
+    "chatType": "RZYADMIN",
+    "seen": false,
+    "appointmentId": "",
+    "propertyId": "242"
+}
+
+state15: after upload rzy service fee by landlord
+nothing
+
+state16: after approved by rzy service fee
+nothing
+
+state17: after agreement signed by landlord
+{
+    "media": "",
+    "chatSenderId": "RZY",
+    "isNewInChat": null,
+    "appointmentId": "",
+    "message": "Landlord Signed The Agreement",
+    "chatId": "1688553482695",
+    "chatType": "RZYADMIN",
+    "threadId": "273",
+    "seen": false,
+    "schedulePurpose": null,
+    "propertyId": "242",
+    "time": "1688553482695",
+    "receiverId": "701",
+    "isDeleted": false
+}
+
+state18: key handover by landlord
+{
+    "media": null,
+    "propertyId": "242",
+    "chatId": "1688553682832",
+    "schedulePurpose": "key_handover",
+    "isNewInChat": null,
+    "message": "Schedule",
+    "isDeleted": false,
+    "chatType": "appointment",
+    "receiverId": "701",
+    "time": "1688553682832",
+    "threadId": "273",
+    "seen": false,
+    "appointmentId": "230",
+    "chatSenderId": "677"
+}
+
+state19: accepted by tenant
+{
+    "propertyId": "242",
+    "chatType": "general",
+    "appointmentId": "",
+    "receiverId": "677",
+    "chatId": "1688553784830",
+    "isDeleted": false,
+    "chatSenderId": "701",
+    "seen": false,
+    "media": "",
+    "time": "1688553784830",
+    "threadId": "273",
+    "isNewInChat": null,
+    "schedulePurpose": null,
+    "message": "Schedule Confirmed"
+}
+
+state20: tenant viewing complete
+{
+    "time": "1688553893314",
+    "isNewInChat": null,
+    "appointmentId": "",
+    "message": "Key Handover Completed",
+    "isDeleted": false,
+    "chatType": "RZYADMIN",
+    "media": "",
+    "schedulePurpose": null,
+    "receiverId": "701",
+    "propertyId": "242",
+    "threadId": "273",
+    "chatId": "1688553893314",
+    "seen": true,
+    "chatSenderId": "RZY"
+}
+
+
+state21: condition report created by landlord
+{
+    "receiverId": "701",
+    "time": "1688554192081",
+    "media": "",
+    "isNewInChat": null,
+    "appointmentId": "",
+    "seen": false,
+    "propertyId": "242",
+    "isDeleted": false,
+    "threadId": "273",
+    "message": "Landlord Added Condition Report",
+    "chatId": "1688554192081",
+    "chatType": "CONDITION_REPORT",
+    "schedulePurpose": null,
+    "chatSenderId": "677"
+}
+
+
+state22: property condition report signed by tenant
+{
+    "isDeleted": false,
+    "time": "1688554391431",
+    "message": "Tenant Signed Condition Report",
+    "isNewInChat": null,
+    "appointmentId": "",
+    "propertyId": "242",
+    "media": "",
+    "chatSenderId": "RZY",
+    "chatType": "RZYADMIN",
+    "seen": false,
+    "schedulePurpose": null,
+    "chatId": "1688554391431",
+    "threadId": "273",
+    "receiverId": "701"
+}
+
+state23: property condition report signed by landlord
+{
+    "isDeleted": false,
+    "time": "1688554391431",
+    "message": "Tenant Signed Condition Report",
+    "isNewInChat": null,
+    "appointmentId": "",
+    "propertyId": "242",
+    "media": "",
+    "chatSenderId": "RZY",
+    "chatType": "RZYADMIN",
+    "seen": false,
+    "schedulePurpose": null,
+    "chatId": "1688554391431",
+    "threadId": "273",
+    "receiverId": "701"
+}
+
+state24: inventory checklist created by landlord
+
+{
+    "isNewInChat": null,
+    "threadId": "273",
+    "chatId": "1688554802018",
+    "chatSenderId": "677",
+    "appointmentId": "",
+    "seen": false,
+    "receiverId": "701",
+    "isDeleted": false,
+    "propertyId": "242",
+    "message": "Landlord Created Inventory List",
+    "chatType": "INVENTORY",
+    "schedulePurpose": null,
+    "media": "",
+    "time": "1688554802018"
+}
+{
+    "media": "",
+    "receiverId": "701",
+    "chatId": "1688554807428",
+    "threadId": "273",
+    "schedulePurpose": null,
+    "chatSenderId": "RZY",
+    "chatType": "RZYADMIN",
+    "time": "1688554807428",
+    "message": "Landlord Shared Inventory List With Tenant",
+    "isDeleted": false,
+    "appointmentId": "",
+    "isNewInChat": null,
+    "seen": false,
+    "propertyId": "242"
+}
+
+state25: inventory checklist signed by tenant
+{
+    "chatType": "RZYADMIN",
+    "message": "Tenant Signed Inventory List",
+    "threadId": "273",
+    "propertyId": "242",
+    "schedulePurpose": null,
+    "chatId": "1688555042983",
+    "time": "1688555042983",
+    "appointmentId": "",
+    "media": "",
+    "seen": false,
+    "chatSenderId": "RZY",
+    "isDeleted": false,
+    "isNewInChat": null,
+    "receiverId": "701"
+}
+
+
+state26: inventory checklist signed by landlord
+{
+    "isDeleted": false,
+    "chatSenderId": "RZY",
+    "receiverId": "701",
+    "threadId": "273",
+    "seen": false,
+    "media": "",
+    "chatType": "RZYADMIN",
+    "schedulePurpose": null,
+    "time": "1688555217973",
+    "chatId": "1688555217973",
+    "message": "Inventory List Signed Completed",
+    "isNewInChat": null,
+    "propertyId": "242",
+    "appointmentId": ""
+}
+{
+    "threadId": "273",
+    "receiverId": "701",
+    "chatId": "1688555218121",
+    "propertyId": "242",
+    "media": "",
+    "seen": false,
+    "isNewInChat": null,
+    "isDeleted": false,
+    "message": "You have completed the full rental process! Here's to a happy and successful stay in your new rental property!",
+    "appointmentId": "",
+    "schedulePurpose": null,
+    "chatType": "RZYADMIN",
+    "chatSenderId": "RZY",
+    "time": "1688555218121"
+}

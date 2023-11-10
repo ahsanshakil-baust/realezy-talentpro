@@ -1,0 +1,19 @@
+<svg id="Chat_N" data-name="Chat N" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.248" y1="0.022" x2="0.894" y2="0.943" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.2"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Comment">
+    <rect id="Rectangle_10304" data-name="Rectangle 10304" width="52" height="52" rx="26" fill="#ddf2fe"/>
+    <path id="Path_22480" data-name="Path 22480" d="M122.57,162.36c-3.167,16.492-18.628,21.319-27.376,20.958L83.248,171.363l4.44-9V151l22.818.021,12.064,11.337Z" transform="translate(-70.974 -131.349)" opacity="0.8" fill="url(#linear-gradient)"/>
+    <g id="chat_1_" data-name="chat (1)" transform="translate(11 11.75)">
+      <g id="Group_10976" data-name="Group 10976" transform="translate(0)">
+        <path id="Path_20552" data-name="Path 20552" d="M15.322,0h-.049C6.989,0,.253,6.284.253,14.012a13.343,13.343,0,0,0,3.266,8.682L1.333,27.436a.742.742,0,0,0,.426,1,.887.887,0,0,0,.467.053l8.014-1.313a15.378,15.378,0,0,0,4.993.809c8.284,0,15.02-6.284,15.02-14.012C30.269,6.269,23.581.008,15.322,0ZM10.182,11.194H14.6a.765.765,0,1,1,0,1.527h-4.42a.765.765,0,1,1,0-1.527Zm10.15,5.345H10.182a.765.765,0,1,1,0-1.527h10.15a.765.765,0,1,1,0,1.527Z" transform="translate(-0.253)" fill="#00adee"/>
+        <line id="Line_329" data-name="Line 329" x2="6" transform="translate(9.5 11.766)" fill="none" stroke="#fff" strokeLinecap="round" strokeWidth="2"/>
+        <line id="Line_330" data-name="Line 330" x2="11" transform="translate(9.5 15.766)" fill="none" stroke="#fff" strokeLinecap="round" strokeWidth="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

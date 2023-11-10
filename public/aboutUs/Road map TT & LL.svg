@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1639" height="703" viewBox="0 0 1639 703">
+  <defs>
+    <filter id="Rectangle_10575" x="51" y="0" width="238" height="88" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10575-2" x="51" y="562" width="238" height="88" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_36026" data-name="Group 36026" transform="translate(-142 -1249)">
+    <line id="Line_472" data-name="Line 472" x2="1514.524" transform="translate(201.355 1579.494)" fill="none" stroke="#00adee" stroke-width="2"/>
+    <g id="Group_35891" data-name="Group 35891" transform="translate(202.002 1258)">
+      <g transform="matrix(1, 0, 0, 1, -60, -9)" filter="url(#Rectangle_10575)">
+        <g id="Rectangle_10575-3" data-name="Rectangle 10575" transform="translate(60 9)" fill="#ed7d31" stroke="#dbdbdb" stroke-width="1">
+          <rect width="220" height="70" rx="12" stroke="none"/>
+          <rect x="0.5" y="0.5" width="219" height="69" rx="11.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Landlord" transform="translate(47.998 44)" fill="#fff" font-size="24" font-family="Roboto-Regular, Roboto" letter-spacing="0.02em"><tspan x="0" y="0">LANDLORD</tspan></text>
+    </g>
+    <g id="Group_35892" data-name="Group 35892" transform="translate(202.002 1820)">
+      <g transform="matrix(1, 0, 0, 1, -60, -571)" filter="url(#Rectangle_10575-2)">
+        <g id="Rectangle_10575-4" data-name="Rectangle 10575" transform="translate(60 571)" fill="#ed7d31" stroke="#dbdbdb" stroke-width="1">
+          <rect width="220" height="70" rx="12" stroke="none"/>
+          <rect x="0.5" y="0.5" width="219" height="69" rx="11.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Tenant" transform="translate(62.998 44)" fill="#fff" font-size="24" font-family="Roboto-Regular, Roboto" letter-spacing="0.02em"><tspan x="0" y="0">TENANT</tspan></text>
+    </g>
+    <circle id="Ellipse_661" data-name="Ellipse 661" cx="13.5" cy="13.5" r="13.5" transform="translate(174 1566)" fill="#46b0f0"/>
+    <circle id="Ellipse_665" data-name="Ellipse 665" cx="22" cy="22" r="22" transform="translate(828 1557)" fill="#7030a0"/>
+    <circle id="Ellipse_668" data-name="Ellipse 668" cx="22" cy="22" r="22" transform="translate(1309 1557)" fill="#7030a0"/>
+    <circle id="Ellipse_670" data-name="Ellipse 670" cx="14.5" cy="14.5" r="14.5" transform="translate(1716 1565)" fill="#46b0f0"/>
+    <g id="Ellipse_662" data-name="Ellipse 662" transform="translate(256 1513)" fill="#3c519f" stroke="#00adee" stroke-width="8">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="64" fill="none"/>
+    </g>
+    <g id="Ellipse_673" data-name="Ellipse 673" transform="translate(446 1513)" fill="#3c519f" stroke="#00adee" stroke-width="8">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="64" fill="none"/>
+    </g>
+    <g id="Ellipse_674" data-name="Ellipse 674" transform="translate(637 1513)" fill="#3c519f" stroke="#00adee" stroke-width="8">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="64" fill="none"/>
+    </g>
+    <g id="Ellipse_675" data-name="Ellipse 675" transform="translate(928 1513)" fill="#3c519f" stroke="#00adee" stroke-width="8">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="64" fill="none"/>
+    </g>
+    <g id="Ellipse_676" data-name="Ellipse 676" transform="translate(1118 1513)" fill="#3c519f" stroke="#00adee" stroke-width="8">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="64" fill="none"/>
+    </g>
+    <g id="Ellipse_672" data-name="Ellipse 672" transform="translate(1407 1455)" fill="none" stroke="#00adee" stroke-width="1" stroke-dasharray="4">
+      <circle cx="127" cy="127" r="127" stroke="none"/>
+      <circle cx="127" cy="127" r="126.5" fill="none"/>
+    </g>
+    <text id="register" transform="translate(142 1633)" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.012em"><tspan x="0" y="0">REGISTER</tspan></text>
+    <text id="handover" transform="translate(1684 1633)" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.012em"><tspan x="0" y="0">HANDOVER</tspan></text>
+    <text id="view" transform="translate(298 1730)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="0" y="0">View</tspan></text>
+    <text id="upload_pics_and_info" data-name="upload
+pics and info" transform="translate(316 1402)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-28.713" y="0">Upload</tspan><tspan x="-54.549" y="26">Pics And Info</tspan></text>
+    <text id="chat_and_respond_to_enquires" data-name="chat and
+respond to
+enquires" transform="translate(510 1402)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-37.547" y="0">Chat And</tspan><tspan x="-48.266" y="26">Respond To</tspan><tspan x="-35.468" y="52">Enquires</tspan></text>
+    <text id="Seek_clarifications" data-name="Seek
+clarifications" transform="translate(511 1730)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-19.761" y="0">Seek</tspan><tspan x="-53.916" y="26">Clarifications</tspan></text>
+    <text id="Schedule_Viewing" data-name="Schedule
+Viewing" transform="translate(703 1730)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-37.521" y="0">Schedule</tspan><tspan x="-32.289" y="26">Viewing</tspan></text>
+    <text id="tenant_completes_credit_check" data-name="tenant
+completes
+credit check" transform="translate(850 1661)" fill="#7030a0" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-28.01" y="0">Tenant</tspan><tspan x="-44.093" y="26">Completes</tspan><tspan x="-52.059" y="52">Credit Check</tspan></text>
+    <text id="LEXIS_NEXIS_verification" data-name="LEXIS NEXIS
+verification" transform="translate(1331 1486)" fill="#7030a0" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-51.657" y="0">LEXIS NEXIS</tspan><tspan x="-46.423" y="26">Verification</tspan></text>
+    <text id="negotiate_terms" data-name="negotiate
+terms" transform="translate(993 1730)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-39.958" y="0">Negotiate</tspan><tspan x="-25.709" y="26">Terms</tspan></text>
+    <text id="pay_reservation_fee" data-name="pay
+reservation
+fee" transform="translate(1181 1730)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-14.933" y="0">Pay</tspan><tspan x="-48.334" y="26">Reservation</tspan><tspan x="-14.634" y="52">Fee</tspan></text>
+    <text id="Pay_1st_month_Advance_Rent_and_Stamp_Duty_Sign_and_return_e-Tenancy_Agreement_Verify_and_accept_Condition_report_and_Inventory_list" data-name="Pay 1st month
+Advance Rent and Stamp Duty
+
+Sign and return
+e-Tenancy Agreement
+
+Verify and accept 
+Condition report and
+Inventory list" transform="translate(1532 1756)" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-52.433" y="0">Pay 1st month</tspan><tspan x="-109.891" y="24">Advance Rent and Stamp Duty</tspan><tspan x="0.096" y="48"></tspan><tspan x="-55.188" y="72">Sign and return</tspan><tspan x="-79.025" y="96">e-Tenancy Agreement</tspan><tspan x="0.096" y="120"></tspan><tspan x="-65.284" y="144">Verify and accept </tspan><tspan x="-74.668" y="168">Condition report and</tspan><tspan x="-46.576" y="192">Inventory list</tspan></text>
+    <text id="confirm_schedule" data-name="confirm
+schedule" transform="translate(703 1402)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-32.414" y="0">Confirm</tspan><tspan x="-37.521" y="26">Schedule</tspan></text>
+    <text id="negotiate_items" data-name="negotiate
+items" transform="translate(993 1402)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-39.958" y="0">Negotiate</tspan><tspan x="-23.117" y="26">Items</tspan></text>
+    <text id="accept_offer" data-name="accept
+offer" transform="translate(1183 1402)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-28.59" y="0">Accept</tspan><tspan x="-20.577" y="26">Offer</tspan></text>
+    <text id="e-Tenancy_Agreement_Inventory_list_Condition_report_Pay_Insurance_and_Service_Fees_" data-name="e-Tenancy Agreement,
+Inventory list &amp; Condition
+report
+
+Pay Insurance and
+Service Fees " transform="translate(1522 1284)" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.012em"><tspan x="-80.691" y="0">e-Tenancy Agreement,</tspan><tspan x="-90.83" y="24">Inventory list &amp; Condition</tspan><tspan x="-21.918" y="48">report</tspan><tspan x="0.096" y="72"></tspan><tspan x="-66.724" y="96">Pay Insurance and</tspan><tspan x="-48.058" y="120">Service Fees </tspan></text>
+    <text id="List" transform="translate(308 1588)" fill="#fff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.018em"><tspan x="0" y="0">LIST</tspan></text>
+    <text id="Interact" transform="translate(476 1588)" fill="#fff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.018em"><tspan x="0" y="0">INTERACT</tspan></text>
+    <text id="View-2" data-name="View" transform="translate(686 1588)" fill="#fff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.018em"><tspan x="0" y="0">VIEW</tspan></text>
+    <text id="negotiate" transform="translate(952 1587)" fill="#fff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.018em"><tspan x="0" y="0">NEGOTIATE</tspan></text>
+    <text id="offer" transform="translate(1161 1587)" fill="#fff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.018em"><tspan x="0" y="0">OFFER</tspan></text>
+    <g id="Ellipse_677" data-name="Ellipse 677" transform="translate(1466 1513)" fill="#3c519f" stroke="#00adee" stroke-width="8">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="64" fill="none"/>
+    </g>
+    <text id="transact" transform="translate(1492 1587)" fill="#fff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.018em"><tspan x="0" y="0">TRANSACT</tspan></text>
+    <path id="arrow_8eja62s3pn2b" d="M29.756,16.05,18.5,5l2.793,11.05L18.5,27.1Z" transform="translate(1509.872 1439.5)" fill="#00adee"/>
+    <path id="arrow_8eja62s3pn2b-2" data-name="arrow_8eja62s3pn2b" d="M11.256,11.05,0,0,2.793,11.05,0,22.1Z" transform="translate(1539.628 1719.299) rotate(180)" fill="#00adee"/>
+    <line id="Line_473" data-name="Line 473" y2="29" transform="translate(850 1607)" fill="none" stroke="#00adee" stroke-width="2"/>
+    <line id="Line_474" data-name="Line 474" y2="30" transform="translate(1331 1523)" fill="none" stroke="#00adee" stroke-width="2"/>
+  </g>
+</svg>

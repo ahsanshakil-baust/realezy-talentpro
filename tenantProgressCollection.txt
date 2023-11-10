@@ -1,0 +1,633 @@
+state1: initial state
+{
+  progress: {
+    contactTenant: true,
+    hdbApproval: {
+      instruction: 'Full fill as per guideline',
+      progress_status: false,
+      status: 'Pending'
+    },
+    stampDuty: {
+      progress_status: false,
+      status: 'Pending',
+      instruction: 'Full fill as per guideline'
+    },
+    insurancePackage: {
+      status: 'Pending',
+      progress_status: false,
+      instruction: 'Full fill as per guideline'
+    },
+    propertyCondition: {
+      progress_status: false,
+      instruction: 'Not yet',
+      status: 'Pending',
+      is_landlord_sign: false,
+      is_tenant_sign: false
+    },
+    creditReportInfo: {
+      status: 'Pending',
+      instruction: 'Full fill as per guideline',
+      progress_status: false
+    },
+    payBookingFee: {
+      progress_status: false,
+      amount: '500',
+      is_booking_by_others: false,
+      status: 'Pending',
+      booking_id: ''
+    },
+    rentOffer: {
+      progress_status: false,
+      offer_amount: '',
+      status: 'Pending',
+      id: '',
+      accepted: ''
+    },
+    tenancyAgreement: {
+      status: 'You can request for draft',
+      landLord_signed: false,
+      instruction: '',
+      progress_status: false,
+      tenant_signed: false
+    },
+    itemChecklist: {
+      instruction: 'Not yet',
+      progress_status: false,
+      status: 'Pending',
+      is_landlord_sign: false,
+      is_tenant_sign: false
+    },
+    firstMonthRental: {
+      amount: '600',
+      status: 'Pending',
+      progress_status: false
+    },
+    viewingCompleted: {
+      interested: 'requested',
+      progress_status: false
+    },
+    codeVersion: 1,
+    rzyServiceFee: {
+      status: 'Pending',
+      progress_status: false
+    },
+    viewingScheduleConfirmed: {
+      selected_time: '',
+      selected_date: '',
+      purpose: 'house_viewing',
+      id: '',
+      progress_status: false,
+      status: '',
+      inviterId: ''
+    },
+    keyHandover: {
+      progress_status: false,
+      status: '',
+      inviterId: '',
+      selected_date: '',
+      id: '',
+      purpose: 'key_handover',
+      selected_time: ''
+    },
+    occupiers: {
+      progress_status: false,
+      status: 'Request'
+    },
+    threadInfo: {
+      id: '273',
+      sender_id: '701',
+      receiver_id: '677',
+      created_at: '2023-07-05 02:44:41',
+      property_id: '242',
+      document_no: null,
+      property_sub_category: 'Landed'
+    },
+    roletype: 'tenant',
+    session: {
+      user: {
+        id: '701',
+        token: '$6$rounds=5042$64a51586a4c634.7$ADGetHkm04APvBA9DCDxf5eVJVXHai0RGyoUS3NdrjwqWl0X0JyE4aHMaY3blKPHpgRiZLZ4jJ7qXB0fSZS3d1',
+        email: 'webdev2023@armyspy.com',
+        name: 'Webdev 2023',
+        user_profile: 'https://rzylivebucket.s3.ap-southeast-1.amazonaws.com/64082e108b70a.jpeg',
+        user_type: 'Tenant',
+        isOfferable: true,
+        userInfo: {
+          isOfferable: true,
+          completion_rate: '93',
+          id: '701',
+          user_id: '701',
+          type: '1',
+          profile_pic: 'https://rzylivebucket.s3.ap-southeast-1.amazonaws.com/64082e108b70a.jpeg',
+          name: 'Webdev 2023',
+          mobile: '946679787394',
+          country_code: '+65',
+          address: 'fggh',
+          representation: 'Individual',
+          company_name: 'vghc',
+          nationality: 'Local',
+          date_of_birth: '2005-10-12',
+          gender: 'Male',
+          occupation: 'Self Employed',
+          employment_type: 'Self Employed',
+          employer_name: '',
+          desired_property_details: null,
+          social_id: '',
+          payment_info: '',
+          document_url: {
+            nric_front: '',
+            nric_back: '',
+            iras_cpf: '',
+            passport: '',
+            credit_report: 'https://rzylivebucket.s3.ap-southeast-1.amazonaws.com/dev/64a50975c7654.jpeg',
+            pass_id_front: '',
+            pass_id_back: '',
+            sponsor_letter: '',
+            admission_letter: '',
+            matriculation_card: '',
+            salary_slip: ''
+          },
+          user_id_type: '',
+          user_id_number: 'tttttyyyyy ghg',
+          passport_no: '',
+          race: 'Amerindian',
+          video_url: '',
+          singpassdata: '',
+          survey_data: '',
+          user_type: 'tenant',
+          education_level: 'Masters',
+          marital_status: 'Married with Dependant',
+          age: '30-35',
+          salary: '60000',
+          outstanding_loan: '1000',
+          user_nationality: 'Argentinian',
+          nric_type: 'T',
+          email: 'webdev2023@armyspy.com',
+          singpass_data_compare: {
+            date_of_birth: false,
+            gender: false,
+            name: false,
+            race: false,
+            user_nationality: false,
+            address: false,
+            user_id_type: false,
+            user_id_number: false
+          },
+          credit_score: {
+            overall_credit_score: null,
+            credit_score_grade: null,
+            credit_score_overall_grade: null,
+            credit_score_action: null
+          },
+          occupiers_salary_list: {
+            occupant1_salary: '10000',
+            occupant2_salary: '10000',
+            occupant3_salary: '10000',
+            occupant4_salary: '10000',
+            occupant5_salary: '10000',
+            mainTenant_salary: '10000'
+          }
+        },
+        provider: 'credentials'
+      },
+      expires: '2023-08-04T07:02:31.274Z'
+    },
+    tenantLandlordProgressInfo: {
+      propertyInfo: {
+        product_id: 'R64A51093DEC6E',
+        name: 'TAI HWAN GARDEN -- 3444',
+        details: {
+          address: '6, TAI HWAN GARDEN, TAI HWAN LANE',
+          property_address: '6, TAI HWAN GARDEN, TAI HWAN LANE',
+          city: 'Singapore',
+          category: 'Residential',
+          description: 'aaa',
+          document: '[]',
+          fileds: null,
+          images: '[]',
+          all_images_list: '[]',
+          cover_image_url: 'undefined',
+          min_booking_amount: null,
+          mobile_no: null,
+          name: 'demo',
+          price: '5555',
+          price_unit: 'Month',
+          product_name: 'TAI HWAN GARDEN -- 3444',
+          subcategory: 'Landed',
+          rental_type: 'Whole Unit',
+          unit_type: 'Cluster House',
+          bedroom: '2',
+          bathroom: '2',
+          floor_size: '1234',
+          build_year: '2000',
+          floor_level: 'Ground',
+          furnishing: 'Unfurnished',
+          rent_term: '2',
+          property_estate: '',
+          permit_gender: '',
+          keyword: null,
+          adder_role: null,
+          country: null,
+          price_negotiable: null,
+          state: null,
+          postal_code: '555324',
+          street_name: null,
+          house_no: null,
+          street_no: null,
+          pax_number: null,
+          parking_vehicle_num: null,
+          property_city: 'D19 Hougang / Punggol / Sengkang',
+          facing: 'Park View',
+          listing_purpose: null,
+          latitude: '',
+          longitude: '',
+          hdb: '',
+          mrt: null,
+          property_emenity: [
+            'Air-Condition',
+            'Balcony'
+          ],
+          property_facility: [
+            '24 Hour Security',
+            'Badminton Hall'
+          ],
+          room_facility: [],
+          available_from: '2023-21-07 00:00:00.000',
+          upload_title: null,
+          image_list: '[]',
+          unit_number: '',
+          status: '0'
+        },
+        category_id: '7',
+        sub_category_id: '44',
+        category_name: 'Residential',
+        sub_category_name: 'Landed',
+        is_featured: '0',
+        featured_at: '2022-10-18 05:47:09',
+        user_id: '677',
+        status: '1',
+        is_delete: '0',
+        is_approved: '1',
+        rental_type: 'Whole Unit',
+        bedroom: '2',
+        bathroom: '2',
+        floor_size: '1234',
+        build_year: '2000',
+        floor_level: 'Ground',
+        furnishing: 'Unfurnished',
+        rent_term: '2',
+        adder_role: '',
+        location_detail: null,
+        price_psf: '0',
+        price_term: null,
+        price_negotiable: '',
+        pax_number: '0',
+        parking: null,
+        parking_vehicle_num: '0',
+        keyword: '',
+        country: 'Singapore',
+        state: '',
+        property_city: 'D19 Hougang / Punggol / Sengkang',
+        postal_code: '555324',
+        street_name: '',
+        house_no: '',
+        address: '6, TAI HWAN GARDEN, TAI HWAN LANE',
+        street_no: '',
+        facing: 'Park View',
+        listing_purpose: '',
+        latitude: '1.369',
+        longitude: '103.8481',
+        video_url: null,
+        property_address: '6, TAI HWAN GARDEN, TAI HWAN LANE',
+        rental_amount: '5555.00',
+        ownership_eligibility: null,
+        booking_status: 'available',
+        viewed: '104',
+        agreement: '',
+        agreement_details: '',
+        booking_details: ''
+      },
+      landlordInfo: {
+        id: '677',
+        email: 'webdev707@armyspy.com',
+        password: '$6$rounds=5042$64a39bc2ced546.4$MUF.CT3hyONbUiyxyNLgz6fUKotgEeBcP6GDjCLvoGBmQToEh4nmRjbxeCl129cq0bkvAw9n9b0wOcFzPcAGz0',
+        name: 'Webdev77',
+        last_login: '2023-07-05 15:00:56',
+        ip: '202.4.125.204',
+        device_token: '$6$rounds=5042$64a3b665049908.9$xeomInnM2RqHu0m3L8cfL08PwnXlMVJTotrwr.YNYlKMVEPxZncqjuKguZwONECWFLgQFeaHiwyDjnRabDE1g0',
+        created_at: '2023-07-04 04:10:42',
+        updated_at: '2023-07-05 07:00:56',
+        status: '1',
+        email_verified: '0',
+        profile_verified: '0',
+        fcm_token: 'cGOtljHvRZqvDgz_nLaJMK:APA91bF9iLUTibfUmzHPgRs5qJJsr6HkH_L5EBiFvMZrOR4Kzl9feA75pAIfpkKoOph0K094qs6bTP9bYZIDT2JyJHkaUEO83_Ibe4v1yafYjUA3GDAmjRtzg3yI0WfZh28cQ-hDCkYh',
+        login_type: 'email',
+        channel: 'other',
+        profile_pic: 'https://rzylivebucket.s3.ap-southeast-1.amazonaws.com/64082e108b70a.jpeg',
+        mobile: '655700893',
+        address: 'Singapore',
+        signature: null,
+        gender: 'Male',
+        occupation: 'Employed',
+        employment_type: 'Employed',
+        user_id_type: null,
+        user_id_number: 'tgggebd'
+      },
+      tenantInfo: {
+        id: '701',
+        email: 'webdev2023@armyspy.com',
+        password: '$6$rounds=5042$64a50889151235.5$8G6GOQtWgR62qcq73lY3bd1KJ/.C8SoFzhqPqmu1IVRTmKl228SBI7gHCNIdKdCJ2IWJSCFpGC.dTbDsHMNIk.',
+        name: 'Webdev 2023',
+        last_login: '2023-07-05 15:02:53',
+        ip: '202.4.125.204',
+        device_token: '$6$rounds=5042$64a51585662494.0$KIDsOGKF1l/SqmzGc4VeJW2T22LnpULjsrV.8QoDIsDzRORdbahxlD7Pov39p0AKsa5vI/aWpEWyz/XcSg68h.',
+        created_at: '2023-07-05 06:07:05',
+        updated_at: '2023-07-05 07:02:53',
+        status: '1',
+        email_verified: '0',
+        profile_verified: '0',
+        fcm_token: 'fx2sO1E7T56t-_GvYxCMv1:APA91bGm4yIBMLOd59PTkOHJCT5iHZL_LmR9h7Yq098LVklubCtZ6EwRxlbA3BOWo1jdtyIpT9k5pMxluhpQnStnMwcWhw4b_jehK591F-1KAc9kBjDIvTqKm_rw1RK1OcOF-WHYI0Fo',
+        login_type: 'email',
+        channel: 'other',
+        profile_pic: 'https://rzylivebucket.s3.ap-southeast-1.amazonaws.com/64082e108b70a.jpeg',
+        mobile: '946679787394',
+        address: 'fggh',
+        signature: null,
+        gender: 'Male',
+        occupation: 'Self Employed',
+        employment_type: 'Self Employed',
+        user_id_type: null,
+        user_id_number: 'tttttyyyyy ghg'
+      },
+      offerInfo: []
+    }
+  }
+}
+
+state2: schedule created by landlord
+viewingScheduleConfirmed: {
+      id: '228',
+      purpose: 'house_viewing',
+      selected_time: '13:06:00',
+      status: 'tenant_receive_schedule',
+      time: '',
+      progress_status: false,
+      inviterId: '677',
+      selected_date: '2023-07-28',
+      chatId: '1688540800413'
+    },
+
+state3: schedule accepted by tenant
+viewingScheduleConfirmed: {
+      status: 'tenant_accept_schedule',
+      id: '228',
+      inviterId: '677',
+      selected_time: '13:06:00',
+      time: '',
+      chatId: '1688540800413',
+      purpose: 'house_viewing',
+      selected_date: '2023-07-28',
+      progress_status: false
+    },
+
+state4: viewing completed by tenant
+viewingScheduleConfirmed: {
+      time: 1688542694027,
+      id: '228',
+      purpose: 'house_viewing',
+      selected_date: '2023-07-28',
+      status: 'schedule_completed',
+      inviterId: '677',
+      progress_status: true,
+      selected_time: '13:06:00',
+      chatId: '1688540800413'
+    },
+
+state5: make offer by tenant
+rentOffer: {
+      additional_request: '',
+      chatId: '1688543958419',
+      creator: '701',
+      commencement_date: '2023-07-29 00:00:00.000',
+      offer_amount: '5555',
+      tenancy_period: '1',
+      progress_status: false,
+      status: 'tenant_created',
+      accepted: false,
+      inviter_id: '701',
+      id: '125'
+    },
+
+state6: landlord accept rental proposal
+rentOffer: {
+      additional_request: '',
+      tenancy_period: '1',
+      status: 'landlord_accepted',
+      commencement_date: '2023-07-29 00:00:00.000',
+      id: '125',
+      chatId: '1688543958419',
+      inviter_id: '701',
+      accepted: true,
+      offer_amount: '5555',
+      progress_status: true,
+      creator: '701'
+    },
+
+state7: tenant pay booking fee
+payBookingFee: {
+      progress_status: false,
+      is_booking_by_others: false,
+      status: 'Payment being processed',
+      amount: '610.00',
+      time: ''
+    },
+
+state8: approved booking fee
+payBookingFee: {
+      is_booking_by_others: false,
+      booking_id: '',
+      status: 'Payment Successful',
+      amount: '610.00',
+      progress_status: true
+    },
+
+state9: agreement created by landlord
+tenancyAgreement: {
+      time: '',
+      chatId: '1688544721327',
+      tenant_signed: false,
+      id: '67',
+      progress_status: false,
+      landLord_signed: false,
+      instruction: '',
+      status: 'draft_created'
+    },
+
+state10: agreement send from landlord to tenant
+tenancyAgreement: {
+      time: 1688551561619,
+      progress_status: true,
+      status: 'draft_send',
+      instruction: '',
+      tenant_signed: false,
+      chatId: '1688544721327',
+      landLord_signed: false,
+      id: '67'
+    },
+
+state11: approved by LCH
+insurancePackage: {
+      status: 'Insurance Approval Successful',
+      progress_status: true
+    },
+
+state12: tenant pay first month rental
+firstMonthRental: {
+      time: '',
+      status: 'tenant_paid',
+      amount: '5555',
+      progress_status: false
+    },
+
+state13: after approved first month rental
+firstMonthRental: {
+      progress_status: true,
+      status: 'Done',
+      amount: '5555'
+    },
+
+state14: after agreement signed by tenant
+tenancyAgreement: {
+      tenant_signed: true,
+      id: '67',
+      status: 'tenant_sign',
+      progress_status: true,
+      instruction: '',
+      time: 1688552870689,
+      landLord_signed: false,
+      chatId: '1688544721327'
+    },
+
+
+rzyServiceFee: {
+      progress_status: false,
+      status: 'Uploaded'
+    },
+
+state16: after approved by rzy service fee
+rzyServiceFee: {
+      progress_status: true,
+      status: 'Verified'
+    },
+
+state17: after agreement signed by landlord
+tenancyAgreement: {
+      tenant_signed: true,
+      status: 'landlord_sign',
+      landLord_signed: true,
+      progress_status: true,
+      time: 1688553481265,
+      id: '67',
+      instruction: '',
+      chatId: '1688544721327'
+    },
+
+
+state18: key handover by landlord
+keyHandover: {
+      progress_status: false,
+      time: '',
+      chatId: '1688553682832',
+      inviterId: '677',
+      selected_date: '2023-07-28',
+      id: '230',
+      purpose: 'key_handover',
+      status: 'tenant_receive_schedule',
+      selected_time: '16:41:00'
+    },
+
+state19: accepted by tenant
+keyHandover: {
+      selected_date: '2023-07-28',
+      status: 'tenant_accept_schedule',
+      purpose: 'key_handover',
+      selected_time: '16:41:00',
+      chatId: '1688553682832',
+      time: '',
+      progress_status: false,
+      id: '230',
+      inviterId: '677'
+    },
+
+state20: tenant viewing complete
+keyHandover: {
+      time: 1688553892457,
+      inviterId: '677',
+      purpose: 'key_handover',
+      progress_status: true,
+      selected_date: '2023-07-28',
+      status: 'schedule_completed',
+      selected_time: '16:41:00',
+      id: '230',
+      chatId: '1688553682832'
+    },
+
+state21: condition report created by landlord
+propertyCondition: {
+      time: '',
+      instruction: '',
+      status: 'draft_send',
+      is_landlord_sign: false,
+      progress_status: false,
+      is_tenant_sign: false
+    },
+
+state22: property condition report signed by tenant
+propertyCondition: {
+      is_landlord_sign: false,
+      instruction: '',
+      is_tenant_sign: true,
+      time: '',
+      status: 'Tenant Signed',
+      progress_status: false
+    },
+
+state23: property condition report signed by landlord
+propertyCondition: {
+      is_tenant_sign: true,
+      instruction: '',
+      is_landlord_sign: true,
+      status: 'Condition Report Signing Completed',
+      time: 1688554549818,
+      progress_status: true
+    },
+
+state24: inventory checklist created by landlord
+itemChecklist: {
+      status: 'Added',
+      time: '',
+      progress_status: false,
+      is_landlord_sign: false,
+      instruction: '',
+      is_tenant_sign: false
+    },
+
+state25: inventory checklist signed by tenant
+itemChecklist: {
+      is_tenant_sign: true,
+      instruction: '',
+      is_landlord_sign: false,
+      progress_status: false,
+      status: 'Tenant Signed',
+      time: ''
+    },
+
+state26: inventory checklist signed by landlord
+itemChecklist: {
+      is_tenant_sign: true,
+      instruction: '',
+      progress_status: true,
+      status: 'Landlord Signed',
+      time: 1688555217505,
+      is_landlord_sign: true
+    },

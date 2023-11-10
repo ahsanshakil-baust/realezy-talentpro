@@ -1,0 +1,23 @@
+<svg id="Chat_semi_round" data-name="Chat semi round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.139" y1="0.267" x2="0.852" y2="0.939" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.2"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Comment">
+    <rect id="Rectangle_10304" data-name="Rectangle 10304" width="52" height="52" rx="26" fill="#ddf2fe"/>
+    <g id="Social_Icon" data-name="Social Icon" transform="translate(-0.016)">
+      <path id="Path_22481" data-name="Path 22481" d="M136.934,94.948c-.464,4.308-7.193,19.509-25.346,19.369L97.031,98.651l7.658-3.7,8.453-22.493Z" transform="translate(-85.866 -62.342)" opacity="0.8" fill="url(#linear-gradient)"/>
+      <g id="Bell" transform="translate(11.016 9.624)">
+        <path id="Path_22482" data-name="Path 22482" d="M232.02,68.173a2.173,2.173,0,1,1,4.346,0V72H232.02Z" transform="translate(-219.228 -66)" fill="#4dbde6"/>
+        <path id="Path_22483" data-name="Path 22483" d="M204.27,346.44h9.374v4.334a4.687,4.687,0,1,1-9.374,0Z" transform="translate(-193.993 -321.029)" fill="#4dbde6"/>
+        <path id="Path_22484" data-name="Path 22484" d="M105.595,111.13A10.571,10.571,0,0,0,95.023,121.7v4.648a3.363,3.363,0,0,1-.985,2.378l-2.567,2.567a2.124,2.124,0,0,0,1.5,3.625h25.681a2.123,2.123,0,0,0,1.5-3.625l-2.568-2.567a3.363,3.363,0,0,1-.985-2.378V121.7a10.571,10.571,0,0,0-10.571-10.572Z" transform="translate(-90.85 -107.041)" fill="#00adee"/>
+      </g>
+    </g>
+  </g>
+  <g id="Rectangle_10305" data-name="Rectangle 10305" transform="translate(36 0.016)" fill="#ff3434" stroke="#fff" strokeWidth="2">
+    <rect width="12" height="12" rx="6" stroke="none"/>
+    <rect x="1" y="1" width="10" height="10" rx="5" fill="none"/>
+  </g>
+</svg>

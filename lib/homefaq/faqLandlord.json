@@ -1,0 +1,137 @@
+{
+    "data": [
+        {
+            "title": "Is it legal to rent out a HDB?",
+            "content": "Only Singaporean Citizens can rent out their whole flat as long as they have fulfilled the 5-year Minimum Occupation Period (MOP)."
+        },
+        {
+            "title": "What is the minimum rental period in Singapore?",
+            "content": "Minimum rental period is 3 months for Private Condominiums, Apartments and Landed Homes, while it is 6 months for HDB."
+        },
+        {
+            "title": "What is the maximum rental period for HDB?",
+            "content": "Owners can rent out their flat or bedrooms for 3 years per application to Singapore content or Malaysicontent and 2 years for Non-Singaporecontent and Non-Malaysicontent."
+        },
+        {
+            "title": "Can I rent out a bedroom in my HDB?",
+            "content": "Yes, but owners should apply to HDB for approval before letting the tenant move in."
+        },
+        {
+            "title": "Can I rent out my HDB if I'm overseas?",
+            "content": "Yes, but the owner must have appointed a person through a Power of Attorney (POA) to manage the property while the owner is overseas."
+        },
+        {
+            "title": "What's the maximum tenants allowed?",
+            "content": [
+                {
+                    "rooms": "1-room",
+                    "occupants": "4 persons"
+                },
+                {
+                    "rooms": "2-room",
+                    "occupants": "4 persons"
+                },
+                {
+                    "rooms": "3-room",
+                    "occupants": "6 persons"
+                },
+                {
+                    "rooms": "4-room",
+                    "occupants": "6 persons"
+                },
+                {
+                    "rooms": "5-room",
+                    "occupants": "6 persons"
+                },
+                {
+                    "rooms": "Executive",
+                    "occupants": "6 persons"
+                }
+            ]
+        },
+        {
+            "title": "Can I rent out my HDB and live in a Condo?",
+            "content": "You can rent either or live on both as long as you're a Singaporean Citizen and have fulfilled the 5 years MOP."
+        },
+        {
+            "title": "Can I still own an HDB flat after renouncing my Singaporean Permanent Resident status?",
+            "content": "No, only Singaporecontent or SPR can own an HDB flat."
+        },
+        {
+            "title": "Can I still own my condo after renouncing my Singaporean Permanent Resident status?",
+            "content": "Yes, foreigner can own private condo in Singapore"
+        },
+        {
+            "title": "Can you own an Executive condo and HDB at the same time?",
+            "content": "If the Executive condo is brand new then the contentwer is no, it has to fulfill the 5 years MOP."
+        },
+        {
+            "title": "Can I rent out my condo?",
+            "content": "Yes you can rent out the condo after you receive the keys"
+        },
+        {
+            "title": "Do I need to register my relative if he/she is my tenant?",
+            "content": "Yes, to ensure that he/she is legally allowed to be in Singapore and for citizens to ensure they don't own HDB property."
+        },
+        {
+            "title": "Am I liable for what my tenant does?",
+            "content": "Yes, the landlord must ensure that the property is not used for illegal matters and there are no unauthorized occupants in the property."
+        },
+        {
+            "title": "Can HDB be inherited?",
+            "content": "Yes it can be inherited if you are 21 years old but there are a lot of things to consider such as the will of the deceased, is the spouse still alive etc. You will need to sell your private property within 6 months upon receiving the HDB inheritance."
+        },
+        {
+            "title": "Can I renovate anytime in my HDB property?",
+            "content": "No, general renovation can only be carried out between 8AM to 6PM daily. While noisy renovation such as demolition of walls, removing wall, floor finishes, cutting of tiles and drilling work are restricted from 9AM to 5PM daily during weekdays and can only be carried out by HDB Registered Renovation Contractor."
+        },
+        {
+            "title": "Can I renovate my HDB flat myself?",
+            "content": "No, only HDB Registered Renovation Contractor can carry out general renovation and noisy renovation."
+        },
+        {
+            "title": "Can I renovate my Condo property?",
+            "content": "Yes, if it will not increase the Gross Floor Area (GFA) of the property but if does so, you will need to obtain approval from Urban Redevelopment Authority (URA)."
+        },
+        {
+            "title": "Can I add a loft in my Condo property?",
+            "content": "Yes and it doesn't even require planning permission from URA. It is limited to one loft every residential unit. It should be 5sqm or less with a furniture deck designed that will serve as a small resting area."
+        },
+        {
+            "title": "What is a Strata title?",
+            "content": "A form of ownership devised for multi-level buildings with shared areas like condominiums. It is designed to give property owners more control over the space they occupy."
+        },
+        {
+            "title": "Can I demolish the wall of my condo?",
+            "content": "Knocking down the wall in the condo is not allowed."
+        },
+        {
+            "title": "Can I put a security system in my condo?",
+            "content": "Yes, there's a lot of companies offering total protection for security systems for units within an apartment or condo's."
+        },
+        {
+            "title": "Can I put CCTV on my property?",
+            "content": "HDB flat owners are not allowed to put CCTV at their main door facing common areas to protect the privacy of their neighbors. With the Town Council approval some individuals are allowed to have CCTV in their HDB to gather evidence or deter acts of harassment or vandalism. But for condo owners it will depend on the rules of the condo management. For landed property, it is allowed on any part of the property."
+        },
+        {
+            "title": "Can I install CCTV myself?",
+            "content": "Only people with a Security Service Provider license can install CCTV whether you have permission to have CCTV or your property allows it."
+        },
+        {
+            "title": "Are doorbells with cameras considered CCTV?",
+            "content": "Yes, and permission to install is required from the Town Council depending on the property."
+        },
+        {
+            "title": "What is Writ of Distress?",
+            "content": "It is a court order that allows the sheriff to enter the property to seize the tenant's possession and sell it to cover the tenant's unpaid rent."
+        },
+        {
+            "title": "What is lease forfeiture?",
+            "content": "It is a termination of lease if there's a breach in the Tenancy Agreement."
+        },
+        {
+            "title": "What is a Non-Citizen Quota for Renting Out of Flat?",
+            "content": "It is a quota set for Non-Citizen and Non-Malaysian citizens to maintain a good ethnic mix in HDB estate. It is 8% for the neighborhood level while 11% for block level. It is not applicable to rental of a bedroom."
+        }
+    ]
+}

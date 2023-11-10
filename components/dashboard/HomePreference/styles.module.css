@@ -1,0 +1,18 @@
+/* styles.css */
+
+/* Your custom styles go here */
+/* For example: */
+
+@screen lg {
+  .fieldHeading {
+    @apply text-base/none text-[#202020] font-medium font-roboto mb-3;
+  }
+
+  .sliderContainer {
+    @apply w-full h-20 pt-2 border border-[#D4E8FF] rounded-lg flex flex-col items-center;
+  }
+
+  .customWidth {
+    @apply !w-4;
+  }
+}

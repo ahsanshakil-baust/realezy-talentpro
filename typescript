@@ -1,0 +1,7 @@
+Script started on 2023-09-15 14:44:18+06:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="113" LINES="12"]
+[6n[6n[m[?25h[1myarn run v1.22.19[22m[K
+[2m$ next build[22m[K
+[36minfo  [m- Loaded env from O:\ACTUAL\realezy-web-app\.env
+[36minfo  [m- Checking validity of types [36m.[?25l[m[36minfo  [m- Checking validity of types [36m..[K[76C[m[36minfo  [m- Checking validity of types[K
+[?25h
+Script done on 2023-09-15 14:44:24+06:00 [COMMAND_EXIT_CODE="130"]

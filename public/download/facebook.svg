@@ -1,0 +1,13 @@
+<svg id="facebook_2_" data-name="facebook (2)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.055" y1="0.181" x2="1.179" y2="1.094" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d1d1b"/>
+      <stop offset="0.369" stop-color="#1d1d1b" stop-opacity="0.855"/>
+      <stop offset="0.75" stop-color="#1d1d1b" stop-opacity="0.427"/>
+      <stop offset="1" stop-color="#1d1d1b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_166" data-name="Ellipse 166" cx="30" cy="30" r="30" transform="translate(0 0)" fill="#3764b9"/>
+  <path id="Path_22906" data-name="Path 22906" d="M56.523,41.653a2.742,2.742,0,0,1,.367-.842,26.878,26.878,0,0,0,2.285-10.98c0-.216,0-.431-.008-.646L38.064,8.922a51.561,51.561,0,0,0-5.622-.287c-4.876.192-8.561,4.687-8.781,9.625v5.385H17.4v7.29l6.264,6.19V49.432l8.763,9.1c9.969-1.031,19.929-7.715,24.1-16.883Z" transform="translate(0.634 1.315)" opacity="0.6" fill="url(#linear-gradient)"/>
+  <path id="Path_22907" data-name="Path 22907" d="M30.614,49.868V31.086h6.294l.943-7.352H30.614V19.052c0-2.124.586-3.571,3.613-3.571h3.836V8.924a51.3,51.3,0,0,0-5.622-.289c-5.564,0-9.371,3.415-9.371,9.689v5.41H16.8v7.352H23.07V49.868Z" transform="translate(1.282 1.073)" fill="#fff"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="Add_Property_Icon" data-name="Add Property Icon" transform="translate(-1353 -24)">
+    <rect id="Rectangle_10511" data-name="Rectangle 10511" width="52" height="52" rx="26" transform="translate(1353 24)" fill="#e4f0fe"/>
+    <g id="home_1_" data-name="home (1)" transform="translate(1355.032 23.029)">
+      <path id="Path_22491" data-name="Path 22491" d="M49.686,63.808a.863.863,0,0,1,.862-.862l2.389,0,0-2.377a.861.861,0,1,1,1.722,0l0,2.377,2.377,0a.861.861,0,1,1,0,1.722l-2.377,0,0,2.389a.861.861,0,1,1-1.722,0l0-2.389-2.389,0a.859.859,0,0,1-.86-.86Z" transform="translate(-30.184 -34.557)" fill="#034ea1"/>
+      <path id="Path_22492" data-name="Path 22492" d="M24.543,12.264a1.676,1.676,0,0,0-1.807,0L8.772,21.2a1.676,1.676,0,0,0,1.807,2.823l1.331-.852V36.578a4.469,4.469,0,0,0,4.469,4.469H30.9a4.469,4.469,0,0,0,4.469-4.469V23.173l1.331.852A1.676,1.676,0,0,0,38.508,21.2Zm5.241,17.052a6.144,6.144,0,1,1-6.144-6.144A6.144,6.144,0,0,1,29.784,29.316Z" transform="translate(-0.031 -0.029)" fill="#034ea1" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1344 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './embla.css';
+@import './emblaDetail.css';
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+/******** Customize the scrollbar *****/
+.modal-custom-scrollbar::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+/******** Customize the scrollbar *****/
+
+@layer components {
+  .path-fill-current path {
+    @apply fill-current;
+  }
+  .btn-primary {
+    @apply border-0 p-2 px-6 bg-slate-100 rounded-md;
+  }
+
+  .embla__dot--selected {
+    @apply outline outline-1 outline-secondary !important;
+  }
+  .embla__dot--selected:after {
+    @apply !bg-secondary;
+  }
+  .bg-blur {
+    backdrop-filter: blur(4px);
+  }
+}
+
+/********Animation css start**********/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animated.delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.animated.delay-3s {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.animated.delay-4s {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.animated.delay-5s {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.animated.fast {
+  -webkit-animation-duration: 800ms;
+  animation-duration: 800ms;
+}
+
+.animated.faster {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.animated.slow {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.slower {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@media (print), (prefers-reduced-motion: reduce) {
+  .animated {
+    -webkit-animation-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    -webkit-transition-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+/*******Animation css end********/
+
+/*******Sticky header start********/
+.sticky {
+  @apply fixed z-[9999] bg-white bg-opacity-80 transition;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.sticky .navbar-logo {
+  @apply py-2;
+}
+
+.sticky #navbarToggler span {
+  @apply bg-dark;
+}
+
+.sticky #navbarCollapse li a {
+  @apply text-[#505050] hover:text-[#00ADEE] hover:opacity-100;
+}
+#navbarCollapse li .ud-menu-scroll.active {
+  @apply opacity-70;
+}
+.sticky #navbarCollapse li .ud-menu-scroll.active {
+  @apply text-primary opacity-100;
+}
+.sticky .loginBtn {
+  @apply text-dark hover:text-primary hover:opacity-100;
+}
+
+.sticky .signUpBtn {
+  @apply bg-primary text-white hover:bg-dark hover:text-white;
+}
+
+.navbarTogglerActive > span:nth-child(1) {
+  @apply top-[7px] rotate-45 transform;
+}
+.navbarTogglerActive > span:nth-child(2) {
+  @apply opacity-0;
+}
+.navbarTogglerActive > span:nth-child(3) {
+  @apply top-[-8px] rotate-[135deg];
+}
+
+/*******Sticky header end********/
+
+.card-overflow-y-auto::-webkit-scrollbar {
+  width: 0.4em;
+}
+.card-overflow-y-auto::-webkit-scrollbar-thumb {
+  background-color: 'rgba(0,0,0,0)';
+}
+/* .react-tel-input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  position: relative;
+  width: 20% !important;
+}
+
+.react-tel-input input {
+  height: 100% !important;
+} */
+
+/*
+@media (min-width: 1319px) {
+  .slick-slide {
+    padding: 0;
+    display: block;
+    margin-right: 22px;
+    width: 23.7% !important;
+    margin-left: 0px;
+  }
+
+  .slick-slide:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1140px) and (max-width: 1318px) {
+  .slick-slide {
+    padding: 0;
+    display: block;
+    margin-right: 22px;
+    width: 8.8% !important;
+    margin-left: -8px;
+  }
+
+  .slick-slide:last-child {
+    margin-right: 0;
+  }
+  .slick-slide:first-child {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1139px) {
+  .slick-slide {
+    padding: 0;
+    display: block;
+    margin-right: 22px;
+    width: 8.8% !important;
+    margin-left: -8px;
+  }
+
+  .slick-slide:last-child {
+    margin-right: 0;
+  }
+  .slick-slide:first-child {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+  .slick-slide {
+    padding: 0;
+    display: block;
+    margin-right: 22px;
+    width: 8.8% !important;
+    margin-left: -8px;
+  }
+
+  .slick-slide:last-child {
+    margin-right: 0;
+  }
+  .slick-slide:first-child {
+    margin-left: 0;
+  }
+}   */
+
+.pagination-theme .MuiPagination-ul li:last-child {
+  margin-left: auto;
+}
+
+.pagination-theme .MuiPagination-ul li:first-child {
+  margin-right: auto;
+}
+
+.MuiPagination-root .MuiPagination-ul li:last-child button svg {
+  @apply -ml-2.5;
+}
+.MuiPagination-root .MuiPagination-ul li:first-child button svg {
+  @apply -mr-2.5;
+}
+.css-beic30-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  @apply border border-secondary text-secondary bg-white;
+}
+.css-beic30-MuiButtonBase-root-MuiPaginationItem-root:hover {
+  @apply border border-secondary text-secondary bg-white;
+}
+
+.css-beic30-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+  @apply bg-white;
+}
+
+.MuiPagination-root .MuiPagination-ul li:last-child button {
+  @apply relative bg-secondary border-0 rounded-xl text-white before:content-[''] before:w-2 before:border before:border-b before:border-white after:content-['Next'] after:absolute after:right-full after:text-secondary after:p-2;
+}
+
+.MuiPagination-root .MuiPagination-ul li:first-child button {
+  @apply relative bg-secondary border-0 rounded-xl text-white before:content-['Previous'] before:absolute before:left-full before:text-secondary before:p-2 after:content-[''] after:w-2 after:border after:border-b after:border-white;
+}
+
+[role='tablist'][aria-label='hm-product-tab'] {
+  display: none;
+}
+
+/* .logo-img {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+} */
+
+.active-tab svg {
+  fill: blue;
+}
+
+.inactive-tab svg {
+  fill: gray;
+}
+
+.slick-slider {
+  margin: 0 -15px;
+}
+.slick-slide {
+  padding: 14px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  /*background-color: red;
+  text-align: center;
+  margin-right: 4px;
+  margin-left: 15px;
+  width: 315px !important; */
+}
+.accordion-tab-group div[role='tabpanel'] {
+  padding: 0 !important;
+}
+.custom-radio .MuiFormLabel-root {
+  /* color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px; */
+  @apply text-sm lg:!text-lg xl:!text-xl !text-[#202020] !font-bold !font-roboto mb-3 md:mb-4 2xl:mb-5;
+}
+.custom-radio-filter .MuiFormLabel-root {
+  /* color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px; */
+  @apply text-[#202020]  font-roboto font-bold text-xl mb-3;
+}
+.custom-radio-filter .MuiFormLabel-root {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.custom-radio .MuiFormGroup-root {
+  /* display: flex;
+  flex-direction: row;
+  gap: 15px; */
+  @apply flex flex-row gap-6 md:gap-7 xl:gap-[30px];
+}
+.custom-radio-filter .MuiFormGroup-root {
+  /* width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 15px; */
+  @apply flex flex-row gap-6 md:gap-7 xl:gap-[30px];
+}
+.custom-radio-filter .MuiFormGroup-root {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.custom-radio .MuiFormGroup-root > .MuiFormControlLabel-root {
+  /* border: 2px solid #00adee; */
+  /* border: 2px solid transparent; */
+  /* padding: 16px 22px 16px 22px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 180px;
+  justify-content: space-between;
+  background-color: #fff; */
+  @apply flex flex-row-reverse justify-between bg-[#F8FBFF] text-[#A1A1A1] font-roboto font-normal 2xl:text-[1.375rem]/[1.6875rem] md:text-[1.1rem]/[1.35rem] text-[0.875rem]/[1.1rem]  rounded-[10px] w-[10.25rem] md:w-[11.75rem] 2xl:w-[14.6875rem] px-[1.25rem] md:px-[1.5rem] 2xl:px-[1.875rem] py-[0.8rem] md:py-[0.9rem] 2xl:py-[1.125rem] shadow-[0px_0px_8px_#034EA11F] border-2 border-solid border-[#FFFFFF];
+}
+/* .custom-radio .MuiFormGroup-root > .MuiFormControlLabel-root {
+  /* border: 2px solid #00adee; */
+/* border: 2px solid transparent; */
+/* padding: 16px 22px 16px 22px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 180px;
+  justify-content: space-between;
+  background-color: #fff; 
+  @apply flex flex-row-reverse justify-between bg-[#F8FBFF] text-[#A1A1A1] font-roboto font-normal text-xl  rounded-[10px] w-[190px] md:w-[180px] lg:w-[210px] xl:w-[230px] 2xl:w-[235px] px-[22px] md:px-[18px] xl:px-[30px] py-[14px] md:py-4 xl:py-[18px] shadow-[0px_0px_8px_#034EA11F] border-2 border-solid border-[#FFFFFF];
+} */
+.custom-radio-filter .MuiFormGroup-root > .MuiFormControlLabel-root {
+  /* border: 2px solid #00adee; */
+  /* border: 2px solid #00adee; */
+  /* padding: 12px 10px 12px 10px; */
+  border-radius: 10px;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  width: 260px;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.custom-radio .MuiFormGroup-root > .MuiFormControlLabel-root:has(.Mui-checked) {
+  /* border: 2px solid #00adee;
+  background-color: #00adee; */
+  @apply bg-[#00ADEE]  text-[#FFFFFF] font-roboto font-normal 2xl:text-[1.375rem]/[1.6875rem] md:text-[1.1rem]/[1.35rem] text-[0.875rem]/[1.1rem]  rounded-[10px] w-[10.25rem] md:w-[11.75rem] 2xl:w-[14.6875rem] px-[1.25rem] md:px-[1.5rem] 2xl:px-[1.875rem] py-[0.8rem] md:py-[0.9rem] 2xl:py-[1.125rem] shadow-[0px_0px_8px_#034EA11F] border-2 border-solid border-[#FFFFFF];
+}
+.custom-radio .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiButtonBase-root > span > svg {
+  @apply fill-[#D4E8FF];
+}
+.custom-radio .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiButtonBase-root > span > .MuiSvgIcon-root {
+  @apply !fill-white !bg-white !rounded-full !w-[22px] !h-[22px];
+}
+.custom-radio .MuiFormGroup-root > .MuiFormControlLabel-root {
+  @apply ml-0 mr-0;
+}
+/* .custom-inputs > .MuiFormControl-root > label.Mui-focused {
+  @apply bg-inherit rounded-[10px];
+} */
+/* custom input */
+.custom-inputs > .MuiFormControl-root > .MuiInputBase-root {
+  @apply bg-[#F8FBFF] border border-solid border-[#FFFFFF] rounded-[10px];
+}
+.custom-inputs > .MuiFormControl-root > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root  /*For Estate in Add Property Page*/ {
+  @apply bg-[#F8FBFF] border border-solid border-[#FFFFFF] rounded-[10px];
+}
+.custom-inputs > .MuiFormControl-root > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root:hover  /*For Estate in Add Property Page*/ {
+  @apply bg-[#F1F7FF]  border border-solid border-transparent rounded-[10px]  shadow-[0px_4px_8px_#034ea11f];
+}
+.custom-inputs > .MuiFormControl-root > .MuiAutocomplete-root > .MuiFormControl-root > div.Mui-focused   /*For Estate in Add Property Page*/ {
+  @apply bg-[#F1F7FF] border border-solid border-transparent rounded-[10px]  shadow-[0px_4px_8px_#034ea11f];
+}
+
+.custom-inputs > .MuiFormControl-root > .MuiInputBase-root:hover {
+  @apply bg-[#F1F7FF]  border border-solid border-transparent rounded-[10px]  shadow-[0px_4px_8px_#034ea11f]
+
+  /* box-shadow: 0px 4px 10px #034ea11f; */;
+}
+
+.custom-inputs > .MuiFormControl-root > div.Mui-focused {
+  @apply bg-[#F1F7FF] border border-solid border-transparent rounded-[10px]  shadow-[0px_4px_8px_#034ea11f]
+
+  /* box-shadow: 0px 4px 10px #034ea11f; */;
+}
+.custom-inputs > .custom-input-outline > .MuiFormControl-root > .MuiInputBase-root > fieldset {
+  @apply border-white outline-none;
+}
+.custom-multi .MuiFormGroup-root {
+  @apply flex flex-row gap-[30px];
+}
+.custom-multi .MuiFormGroup-root > .MuiFormControlLabel-root {
+  @apply flex flex-row-reverse justify-between  bg-[#F1F7FF]  rounded-[10px] w-[235px] md:w-[250px] xl:w-[280px] 2xl:w-[300px] px-5 md:px-6 xl:px-7 2xl:px-[30px] py-3 md:py-4 xl:py-[18px] shadow-[0px_0px_10px_#034EA11A] border-2 border-solid border-[#FFFFFF];
+}
+.custom-multi .MuiFormGroup-root > .MuiFormControlLabel-root:has(.Mui-checked) {
+  @apply bg-[#F8FBFF] border-2 border-solid border-[#FFFFFF] !text-[#202222] text-lg rounded-[10px] w-[235px] md:w-[250px] xl:w-[280px] 2xl:w-[300px] px-5 md:px-6 xl:px-7 2xl:px-[30px] py-3 md:py-4 xl:py-[18px];
+}
+.custom-multi .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiTypography-root {
+  @apply font-medium font-roboto;
+}
+
+.custom-multi .MuiFormGroup-root > .MuiFormControlLabel-labelPlacementEnd {
+  @apply ml-0 mr-0;
+}
+.custom-radio-filter .MuiFormGroup-root > .MuiFormControlLabel-root:has(.Mui-checked) {
+  /*border: 2px solid #00adee;*/
+  color: #00adee;
+  /*background-color: #00adee;*/
+}
+
+.custom-radio-filter .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiButtonBase-root > span > .MuiSvgIcon-root {
+  @apply !fill-transparent !bg-transparent border border-[#C2C2C2]  !rounded-full !w-[20px] !h-[20px];
+}
+/* checked */
+.custom-radio-filter
+  .MuiFormGroup-root
+  > .MuiFormControlLabel-root:has(.Mui-checked)
+  > .MuiButtonBase-root
+  > span
+  > .MuiSvgIcon-root {
+  @apply !fill-transparent !bg-[#00ADEE] border-none !rounded-full !w-[20px] !h-[20px];
+}
+.custom-radio-filter .MuiFormGroup-root > .MuiFormControlLabel-root {
+  @apply ml-0 mr-0;
+}
+
+.accordion-tab-group div[role='tabpanel'] {
+  padding: 0 !important;
+}
+
+/* .cst-login-input-border .css-3mccla-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 10px;
+} */
+
+/* login modal */
+.MuiBackdrop-root {
+  top: 85px;
+}
+
+.MuiCollapse-hidden {
+  height: 0px;
+  width: 0px;
+}
+
+/* .bg-radial {
+  background: radial-gradient(at top right, rgba(212, 232, 255, 1) 0%, rgba(248, 251, 255, 1) 60%);
+} */
+
+.MuiTextField-root .Mui-focused {
+  background-color: #f1f7ff;
+  box-shadow: 0px 4px 8px #034ea11f;
+}
+
+.input-variant > div.Mui-focused {
+  background-color: #f8fbff;
+  box-shadow: 0px 4px 10px #034ea11f;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.property-dropdown {
+  backdrop-filter: blur(10px);
+}
+
+.rightArrowTranslate:hover {
+  transform: translateX(12px);
+  transition-duration: 400ms;
+}
+
+.leftArrowTranslate:hover {
+  transform: translateX(-12px);
+  transition-duration: 400ms;
+}
+
+.bg-radial-gradient {
+  @apply relative overflow-hidden before:bg-radial before:content-[''] before:w-48 before:h-48 before:absolute before:top-0 before:right-0 [&>*]:z-10 [&>*]:relative;
+}
+
+/* input:hover,
+:focus-visible {
+  outline: none !important;
+}
+
+.MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1xp solid #ffffff;
+}
+.MuiInputBase-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #00adee;
+}
+
+.MuiInputBase-root:focus .MuiOutlinedInput-notchedOutline {
+  outline: ipx solid #00adee;
+  background-color: #f1f7ff;
+} */
+
+.custom-sign-inputs .MuiInputBase-root > input {
+  @apply h-[1.4rem];
+}
+
+.custom-sign-selects .MuiInputBase-root .MuiSelect-select {
+  @apply h-[1.4rem];
+}
+
+.my-property-carousel .embla__slide__img {
+  @apply rounded-t-[10px] rounded-b-none;
+}
+
+/* MuiDataGrid */
+.MuiDataGrid-root {
+  border-width: 0 !important;
+  height: 100%;
+}
+
+.MuiDataGrid-columnHeaders {
+  border-bottom: none !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+  border-bottom: none !important;
+}
+
+.MuiDataGrid-footerContainer {
+  border-top: none !important;
+}
+
+.MuiDataGrid-virtualScroller {
+  flex-grow: 1;
+}
+
+.MuiDataGrid-root .MuiDataGrid-row:nth-child(odd) {
+  background-color: #fff;
+  border-radius: 0.375rem;
+}
+
+.MuiDataGrid-cell {
+  @apply font-medium;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  @apply font-normal text-common;
+}
+
+/* table-fees */
+.table-fees {
+  @apply table-auto border-collapse bg-white rounded-lg overflow-hidden text-sm;
+}
+.table-fees tr th {
+  @apply bg-secondary border border-secondary text-white text-center font-normal p-2;
+}
+.table-fees tr td {
+  @apply border border-slate-100 text-center p-2;
+}
+
+/* scrollbar thin */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+/* transaction-invoice */
+.MuiModal-root.MuiDrawer-root {
+  z-index: 1500;
+}
+.transaction-invoice .MuiDrawer-paper {
+  @apply mt-[85px] w-[800px];
+  height: calc(100vh - 85px);
+}
+
+.transaction-invoice .transaction-invoice-header {
+  @apply flex items-center px-12 py-5;
+}
+
+.transaction-invoice .transaction-invoice-navigator {
+  @apply bg-detailsCard flex items-center justify-between px-12 py-5 shadow-navigator;
+}
+
+.transaction-invoice .transaction-invoice-body {
+  @apply overflow-auto overflow-y-auto pb-12;
+}
+.transaction-invoice .transaction-invoice-body-card {
+  @apply bg-white rounded-2xl overflow-hidden shadow-navigator mx-12 mb-3;
+}
+.transaction-invoice .transaction-invoice-body-card-header {
+  @apply flex justify-between text-white px-14 py-4;
+}
+.transaction-invoice .transaction-invoice-body-card-entry {
+  @apply text-textValueColor flex justify-between items-center px-14 py-3;
+}
+.transaction-invoice .transaction-invoice-body-bottom-entry {
+  @apply flex items-center px-14 mb-3;
+}
+
+/* .view-invoice */
+.view-invoice .MuiDrawer-paper {
+  @apply mt-[85px] w-[800px];
+  height: calc(100vh - 85px);
+}
+
+.view-invoice .view-invoice-header {
+  @apply flex items-center px-12 py-5;
+}
+
+.view-invoice .view-invoice-body {
+  @apply flex-1;
+}
+
+.bg-slider-gradient {
+  background: #ddf2fe; /* Old browsers */
+  background: -moz-linear-gradient(left, #ddf2fe 0%, #f6f8f9 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ddf2fe 0%, #f6f8f9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #060808 0%,
+    /* #ddf2fe 0%, */ #f6f8f9 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddf2fe', endColorstr='#f6f8f9',GradientType=1 ); /* IE6-9 */
+}
+
+.hmslider-slick .slick-dots {
+  bottom: 50px !important;
+}
+
+.hmslider-slick .slick-dots li button:before {
+  color: transparent !important;
+  font-size: 6px !important;
+  text-align: center !important;
+  /* padding: 1px !important; */
+  outline: 1px solid #00adee !important;
+  border-radius: 50% !important;
+  padding: 3px !important;
+  width: 14px !important;
+  height: 14px !important;
+  /* display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; */
+  background-color: #ffffff66;
+  backdrop-filter: blur(5px) !important;
+}
+
+.hmslider-slick .slick-dots li.slick-active button:before {
+  color: #00adee !important;
+  font-size: 6px !important;
+  text-align: center !important;
+  /* padding: 1px !important; */
+  outline: #00adee solid 1px !important;
+  border-radius: 50% !important;
+  padding: 3px !important;
+  width: 14px !important;
+  height: 14px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #ffffff66;
+  backdrop-filter: blur(5px) !important;
+}
+
+.intro-video-button {
+  @apply py-3 px-6 text-xl hover:bg-secondary hover:text-white;
+}
+
+.intro-video-button .MuiButton-startIcon {
+  @apply mr-3.5;
+}
+
+.file-dropzone-container {
+  @apply flex flex-col items-center justify-center w-full h-full bg-detailsCard rounded-2xl border-2 border-uranianBlue border-dashed  py-16 px-44  my-10;
+}
+
+/* DashBoard */
+
+.dashboard-side-options {
+  @apply flex items-center pl-4 md:pl-6 2xl:pl-[1.875rem] gap-3 md:gap-4 2xl:gap-5 py-2 md:py-3 2xl:py-4 text-sm sm:text-base md:text-[0.9rem] 2xl:text-lg font-normal font-roboto rounded-[10px];
+}
+
+/* page layout*/
+
+@screen md {
+  /* .db-page-layout { */
+  /* @apply pl-[3.2rem] pt-[1.3rem] pr-[2.8rem]; */
+  /* } */
+
+  /* .dashboard-title { */
+  /* @apply text-[1.4rem] font-medium; */
+  /* } */
+
+  /* .content-header { */
+  /* @apply text-[1.2rem] font-bold; */
+  /* } */
+
+  .content-title .MuiDataGrid-columnHeaderTitle {
+    @apply text-[0.8rem] text-[#A1A1A1];
+    @apply text-[0.8rem] text-[#A1A1A1];
+  }
+
+  .content-title .MuiDataGrid-cell {
+    @apply text-[0.8rem] font-medium;
+    @apply text-[0.8rem] font-medium;
+  }
+
+  /* .db-button { */
+  /* @apply text-17 px-[1.1rem] py-[3.2rem]; */
+  /* } */
+}
+
+@screen 2xl {
+  .content-title .MuiDataGrid-columnHeaderTitle {
+    @apply text-base text-[#A1A1A1];
+  }
+
+  .content-title .MuiDataGrid-cell {
+    @apply text-base font-medium;
+  }
+
+  .payment-content-title {
+    /* @apply text-lg mb-2 font-normal text-[#505050]; */
+    @apply text-lg/none mb-2 font-normal  font-roboto;
+  }
+
+  /* .db-button {
+    @apply text-22 px-[1.375rem] py-4 rounded-[10px] flex items-center gap-2 capitalize text-[#FFFFFF];
+  } */
+}
+
+.db-page-layout {
+  @apply 2xl:pl-16 2xl:py-[1.5rem] 2xl:pr-14 md:pl-[3.2rem] md:py-[1.2rem] md:pr-[2.8rem] px-5 py-[0.8rem];
+}
+.dashboard-title {
+  @apply 2xl:text-[1.75rem] md:text-[1.4rem] font-medium;
+}
+.content-header-profile {
+  @apply 2xl:text-2xl  md:text-[1.2rem] font-bold;
+}
+.content-header {
+  @apply 2xl:text-2xl/none 2xl:mb-[1.375rem] md:text-[1.2rem]  md:mb-4 sm:text-xl sm:mb-2 font-bold text-textValueColor;
+}
+.content-title {
+  @apply 2xl:text-lg md:text-[0.9rem]   sm:text-base text-sm;
+}
+.db-content-profile {
+  @apply 2xl:text-lg md:text-[0.9rem]   sm:text-base text-sm;
+}
+.db-content {
+  @apply 2xl:text-xl md:text-base font-roboto font-normal text-[#A1A1A1];
+}
+
+.db-button {
+  @apply 2xl:text-22 2xl:px-[1.375rem] 2xl:py-4 md:text-17 md:px-[1.1rem] md:py-[0.8rem] text-sm px-[0.8rem] py-[0.4rem] rounded-[10px] flex items-center gap-2 capitalize text-[#FFFFFF];
+}
+
+/* Fees */
+.li-marker-shape {
+  @apply inline-block w-[1.375rem] h-[1.375rem] rounded bg-[#707070] mr-3;
+  vertical-align: middle;
+}
+
+.li-text {
+  @apply text-base;
+}
+/* Fees */
+
+/* Terms Of Use */
+.p-text {
+  @apply text-lg font-light;
+}
+/* Terms Of Use */
+
+/* page layout*/
+
+/*Fees*/
+.li-marker-shape {
+  @apply inline-block w-[1.375rem] h-[1.375rem] rounded bg-[#707070] mr-3;
+  vertical-align: middle;
+}
+
+.li-text {
+  @apply text-base;
+}
+/*Fees*/
+
+/*Terms Of Use*/
+.p-text {
+  @apply text-lg font-light;
+}
+/*Terms Of Use*/
+
+/* DashBoard */
+
+.personal-info-idType {
+  @apply !rounded-l-[10px] rounded-r-[0px];
+}
+
+.personal-info-content fieldset {
+  @apply border-none;
+}
+/* .personal-info-content {
+  @apply bg-[#F8FBFF];
+} */
+
+.custom-password input[type='password'] {
+  /* For modern browsers */
+  text-security: disc;
+
+  /* For older versions of Safari (4-7) */
+  -webkit-text-security: disc;
+
+  /* Set the color of the password dots/mask */
+  /* Replace with your desired color */
+  letter-spacing: 6px;
+
+  /* Customize the size of the password dots/mask */
+  font-size: 2rem; /* Replace with your desired font size */
+}
+
+.slide-anime {
+  animation: slide-left-to-right ease-out 0.3s 1, slide-right-to-left ease-out 0.3s 1;
+}
+@keyframes slide-right-to-left {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    /* transform: scale(1.1); */
+  }
+  100% {
+    transform: translateX(7%);
+    opacity: 1;
+  }
+}
+@keyframes slide-left-to-right {
+  0% {
+    transform: translateX(7%);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    /* transform: scale(1.1); */
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.slide-up-anime-l {
+  animation: slide-bottom-to-top-l ease-out 0.2s 1, slide-top-to-bottom-l ease-out 0.1s 1;
+}
+
+@keyframes slide-bottom-to-top-l {
+  0% {
+    transform: translateY(-120px);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    /* transform: scale(1.1); */
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top-to-bottom-l {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    /* transform: scale(1.1); */
+  }
+  100% {
+    transform: translateY(-120px);
+    opacity: 1;
+  }
+}
+
+.slide-up-anime-t {
+  animation: slide-top-to-bottom ease-out 0.2s 1, slide-bottom-to-top ease-out 0.1s 1;
+}
+@keyframes slide-top-to-bottom {
+  0% {
+    transform: translateY(150px);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    /* transform: scale(1.1); */
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom-to-top {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    /* transform: scale(1.1); */
+  }
+  100% {
+    transform: translateY(150px);
+    opacity: 1;
+  }
+}
+
+.anime-text-l {
+  animation: anime-text-l ease-out 0.3s 1;
+}
+@keyframes anime-text-l {
+  0% {
+    transform: translateX(2px);
+    opacity: 0;
+    scale: 1;
+  }
+
+  50% {
+    transform: translateX(1px);
+    opacity: 0.2;
+    scale: 0.99;
+  }
+  100% {
+    transform: translateX(0.5px);
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+/* .anime-text-t {
+  animation: anime-text-t ease-out 0.3s 1;
+}
+@keyframes anime-text-t {
+  0% {
+    transform: translateX(2px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(1px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+} */
+
+.custom-number-border {
+  border: 2px solid #e4f0fe !important;
+  border-radius: 10px;
+}
+.spin-button-none::-webkit-outer-spin-button,
+.spin-button-none::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.hm-fq-point-text span {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+  font-weight: 500;
+}
+
+/* custom-radio-form */
+.form-radio .MuiFormLabel-root {
+  @apply !text-[#202020]  !font-roboto !font-bold 2xl:!text-[1.25rem]/[1.5rem] !text-[1rem]/[1.25rem] !mb-3;
+}
+
+.form-radio .MuiFormGroup-root {
+  @apply !flex !flex-row !gap-[1.28rem] md:!gap-[1.6rem] 2xl:!gap-8;
+}
+
+.form-radio .MuiFormGroup-root > .MuiFormControlLabel-root {
+  @apply !pl-3 !flex !flex-row-reverse !justify-center !bg-[#F1F7FF] !text-[#505050] !font-roboto !font-medium !text-[1rem]/[1.25rem]  2xl:!text-[1.25rem]/[1.5rem]  !rounded-[10px] !w-[8rem] md:!w-[10rem] 2xl:!w-[12.5rem] !h-[2.5rem] md:!h-[3rem] 2xl:!h-[3.75rem]   !border-[0.5px] !border-solid !border-[#A1A1A1];
+}
+.form-radio .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiButtonBase-root:hover {
+  @apply !bg-inherit;
+}
+.form-radio .MuiFormGroup-root > .MuiFormControlLabel-root:has(.Mui-checked) {
+  /* border: 2px solid #00adee;
+  background-color: #00adee; */
+  @apply !bg-[#00ADEE]  !text-[#FFFFFF] !font-roboto !font-medium !text-[1rem]/[1.25rem]  2xl:!text-[1.25rem]/[1.5rem]  !rounded-[10px] !w-[8rem] md:!w-[10rem] 2xl:!w-[12.5rem] !h-[2.5rem] md:!h-[3rem] 2xl:!h-[3.75rem]   !border-[0.5px] !border-solid !border-[#00ADEE];
+}
+.form-radio .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiButtonBase-root > span > svg {
+  @apply !fill-transparent;
+}
+.form-radio .MuiFormGroup-root > .MuiFormControlLabel-root > .MuiButtonBase-root > span > .MuiSvgIcon-root {
+  @apply !fill-transparent !bg-transparent !rounded-full !w-[0px] !h-[0px];
+}
+
+.form-radio .MuiFormGroup-root > .MuiFormControlLabel-root {
+  @apply !ml-0 !mr-0;
+}
+
+/* occupiersForm-tab */
+
+.occupiersForm-tab .MuiTabs-flexContainer {
+  @apply !border-b-[3px] !border-solid !border-[#D1D1D1];
+}
+
+.occupiersForm-tab .MuiTabs-indicator {
+  @apply !bg-[#00ADEE] !h-[0.1875rem] !rounded-[10px];
+}
+
+/****/
+
+.driver-active .driver-overlay,
+.driver-active * {
+  fill: rgba(0, 0, 0, 0.5) !important;
+}
+
+.driver-popover {
+  background: rgba(0, 173, 238, 1) !important;
+  color: #ffffff !important;
+  font-size: 18px !important;
+}
+
+.driver-popover-progress-text {
+  color: #ffffff !important;
+}
+
+.driver-popover-footer button {
+  all: unset;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 3px 7px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #034ea1 !important;
+  background-color: #034ea1 !important;
+  color: #ffffff !important;
+  font: 18px / roboto !important;
+  cursor: pointer;
+  outline: 0;
+  zoom: 1;
+  line-height: 1.3;
+  border: 1px solid #034ea1 !important;
+  border-radius: 3px;
+}
+
+.driver-popover-close-btn {
+  color: #ffffff !important;
+  font-size: 18px !important;
+}
+
+.driver-popover-description {
+  font-size: 16px !important;
+}
+
+.driver-popover-footer button {
+  padding: 5px 10px !important;
+}
+
+.driver-popover-progress-text {
+  font-size: 14px !important;
+}
+
+/* .driver-popover-arrow {
+  border: 10px solid #fff !important;
+  border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+} */
+/**
+Fix intro video modal only for presentation page
+*/
+div.MuiModal-root[role='presentation'] video {
+  max-height: 435px;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* hmslider3-tab start */
+.hmslider3-tab .MuiTabs-flexContainer {
+  @apply !border-b-[3px] !border-solid !border-[#FFFFFF];
+}
+
+.hmslider3-tab .MuiTabs-indicator {
+  @apply !bg-[#00ADEE] !h-[0.1875rem] !rounded-[10px];
+}
+
+.hmslider3-tab .MuiTabs-scroller > .MuiTabs-flexContainer > .MuiButtonBase-root {
+  @apply !text-[#999999] !font-roboto !font-medium !text-[1rem]/[1.25rem]  2xl:!text-[1.25rem]/[1.5rem] !p-0;
+}
+.hmslider3-tab .MuiTabs-scroller > .MuiTabs-flexContainer > .MuiButtonBase-root.Mui-selected {
+  @apply !text-[#00ADEE] !font-roboto !font-medium !text-[1rem]/[1.25rem]  2xl:!text-[1.25rem]/[1.5rem] !p-0;
+}
+/* hmslider3-tab end */
+
+/* cardImgHover */
+.cardHover:hover {
+  scale: 1.015;
+  /* transition: ease-in-out; */
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.cardHover:hover .cardImgHover {
+  scale: 1.025;
+  transition: all 0.2s ease-in-out;
+  /* overflow: hidden; */
+}
+
+.custom-hover-district:hover h1 {
+  color: #ffffff;
+}
+.custom-hover-district:hover p {
+  color: #ffffff;
+}
+
+.css-vvl4on-MuiPaper-root {
+  box-shadow: none !important;
+}
+
+.toolbar button#download {
+  display: none !important;
+}
+
+.toolbar button#print {
+  display: none !important;
+}
+
+@media screen and (min-width: 1360px) {
+  .scaleUp {
+    transform: scale(0.7);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .scaleUp {
+    transform: scale(0.85);
+  }
+}
+
+/* mobile responsive */
+.mobile-home-title {
+  @apply text-[1.25rem]/[1.5rem] tracking-[0.4px];
+}

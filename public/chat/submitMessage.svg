@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.75" height="36.219" viewBox="0 0 33.75 36.219">
+  <defs>
+    <filter id="Path_20842" x="9.023" y="18.162" width="13.194" height="18.056" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_20843" x="0" y="0" width="33.75" height="33.125" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="paper-plane" transform="translate(0.5)">
+    <g transform="matrix(1, 0, 0, 1, -0.5, 0)" filter="url(#Path_20842)">
+      <path id="Path_20842-2" data-name="Path 20842" d="M14.583,29.353v4.783a.773.773,0,0,0,1.4.458l2.8-3.807Z" transform="translate(-5.06 -11.19)" fill="#FFFFFF"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -0.5, 0)" filter="url(#Path_20843)">
+      <path id="Path_20843-2" data-name="Path 20843" d="M24.425.143a.774.774,0,0,0-.806-.056L.416,12.2a.774.774,0,0,0,.107,1.418l6.45,2.2L20.71,4.082,10.08,16.889l10.811,3.695a.791.791,0,0,0,.25.041.773.773,0,0,0,.765-.659L24.742.888a.775.775,0,0,0-.317-.745Z" transform="translate(0.5 0)" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>
